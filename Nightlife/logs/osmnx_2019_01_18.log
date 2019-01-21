@@ -1,0 +1,296 @@
+2019-01-18 16:20:20,247 INFO osmnx Configured osmnx
+2019-01-18 16:25:29,069 INFO osmnx Pausing 0.00 seconds before making API POST request
+2019-01-18 16:25:29,070 INFO osmnx Posting to http://overpass-api.de/api/interpreter with timeout=180, "{'data': '[out:json][timeout:180];((node["amenity"~"bar|pub|nightclub"](47.349690,18.925106,47.613147,19.334926);(._;>;););(way["amenity"~"bar|pub|nightclub"](47.349690,18.925106,47.613147,19.334926);(._;>;););(relation["amenity"~"bar|pub|nightclub"](47.349690,18.925106,47.613147,19.334926);(._;>;);););out;'}"
+2019-01-18 16:25:32,678 INFO osmnx Downloaded 437.2KB from overpass-api.de in 3.61 seconds
+2019-01-18 16:25:32,716 INFO osmnx Saved response to cache file "cache/4cedef7f126e3e1cf2559a032781b95b.json"
+2019-01-18 16:25:32,739 INFO osmnx Polygon has invalid geometry: [260872629, 260833155]
+2019-01-18 16:25:32,740 INFO osmnx Polygon has invalid geometry: [260833155, 260833158]
+2019-01-18 16:25:33,156 INFO osmnx Could not handle OSM 'relation': 11895
+2019-01-18 16:27:52,750 INFO osmnx Retrieved response from cache file "cache/4cedef7f126e3e1cf2559a032781b95b.json" for URL "http://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A180%5D%3B%28%28node%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2847.349690%2C18.925106%2C47.613147%2C19.334926%29%3B%28._%3B%3E%3B%29%3B%29%3B%28way%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2847.349690%2C18.925106%2C47.613147%2C19.334926%29%3B%28._%3B%3E%3B%29%3B%29%3B%28relation%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2847.349690%2C18.925106%2C47.613147%2C19.334926%29%3B%28._%3B%3E%3B%29%3B%29%3B%29%3Bout%3B"
+2019-01-18 16:27:52,769 INFO osmnx Polygon has invalid geometry: [260872629, 260833155]
+2019-01-18 16:27:52,769 INFO osmnx Polygon has invalid geometry: [260833155, 260833158]
+2019-01-18 16:27:52,873 INFO osmnx Could not handle OSM 'relation': 11895
+2019-01-18 16:28:02,292 INFO osmnx Retrieved response from cache file "cache/4cedef7f126e3e1cf2559a032781b95b.json" for URL "http://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A180%5D%3B%28%28node%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2847.349690%2C18.925106%2C47.613147%2C19.334926%29%3B%28._%3B%3E%3B%29%3B%29%3B%28way%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2847.349690%2C18.925106%2C47.613147%2C19.334926%29%3B%28._%3B%3E%3B%29%3B%29%3B%28relation%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2847.349690%2C18.925106%2C47.613147%2C19.334926%29%3B%28._%3B%3E%3B%29%3B%29%3B%29%3Bout%3B"
+2019-01-18 16:28:02,311 INFO osmnx Polygon has invalid geometry: [260872629, 260833155]
+2019-01-18 16:28:02,311 INFO osmnx Polygon has invalid geometry: [260833155, 260833158]
+2019-01-18 16:28:02,579 INFO osmnx Could not handle OSM 'relation': 11895
+2019-01-18 16:28:18,999 INFO osmnx Converting node and edge attribute data types
+2019-01-18 16:28:26,034 INFO osmnx Loaded graph with 73,172 nodes and 214,476 edges in 23.37 seconds from "Data/Budapest/Budapest_walk.graphml"
+2019-01-18 16:28:26,049 INFO osmnx Begin plotting the graph...
+2019-01-18 16:28:36,725 INFO osmnx Created GeoDataFrame "Budapest_UTM_edges" from graph in 10.61 seconds
+2019-01-18 16:28:53,270 INFO osmnx Drew the graph edges in 6.81 seconds
+2019-01-18 16:29:52,697 INFO osmnx Begin plotting the graph...
+2019-01-18 16:30:02,885 INFO osmnx Created GeoDataFrame "Budapest_UTM_edges" from graph in 10.10 seconds
+2019-01-18 16:30:29,130 INFO osmnx Drew the graph edges in 10.66 seconds
+2019-01-18 16:33:03,340 INFO osmnx Retrieved response from cache file "cache/4cedef7f126e3e1cf2559a032781b95b.json" for URL "http://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A180%5D%3B%28%28node%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2847.349690%2C18.925106%2C47.613147%2C19.334926%29%3B%28._%3B%3E%3B%29%3B%29%3B%28way%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2847.349690%2C18.925106%2C47.613147%2C19.334926%29%3B%28._%3B%3E%3B%29%3B%29%3B%28relation%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2847.349690%2C18.925106%2C47.613147%2C19.334926%29%3B%28._%3B%3E%3B%29%3B%29%3B%29%3Bout%3B"
+2019-01-18 16:33:03,369 INFO osmnx Polygon has invalid geometry: [260872629, 260833155]
+2019-01-18 16:33:03,369 INFO osmnx Polygon has invalid geometry: [260833155, 260833158]
+2019-01-18 16:33:03,514 INFO osmnx Could not handle OSM 'relation': 11895
+2019-01-18 16:33:54,229 INFO osmnx Retrieved response from cache file "cache/4cedef7f126e3e1cf2559a032781b95b.json" for URL "http://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A180%5D%3B%28%28node%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2847.349690%2C18.925106%2C47.613147%2C19.334926%29%3B%28._%3B%3E%3B%29%3B%29%3B%28way%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2847.349690%2C18.925106%2C47.613147%2C19.334926%29%3B%28._%3B%3E%3B%29%3B%29%3B%28relation%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2847.349690%2C18.925106%2C47.613147%2C19.334926%29%3B%28._%3B%3E%3B%29%3B%29%3B%29%3Bout%3B"
+2019-01-18 16:33:54,250 INFO osmnx Polygon has invalid geometry: [260872629, 260833155]
+2019-01-18 16:33:54,251 INFO osmnx Polygon has invalid geometry: [260833155, 260833158]
+2019-01-18 16:33:54,551 INFO osmnx Could not handle OSM 'relation': 11895
+2019-01-18 16:34:50,127 INFO osmnx Retrieved response from cache file "cache/4cedef7f126e3e1cf2559a032781b95b.json" for URL "http://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A180%5D%3B%28%28node%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2847.349690%2C18.925106%2C47.613147%2C19.334926%29%3B%28._%3B%3E%3B%29%3B%29%3B%28way%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2847.349690%2C18.925106%2C47.613147%2C19.334926%29%3B%28._%3B%3E%3B%29%3B%29%3B%28relation%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2847.349690%2C18.925106%2C47.613147%2C19.334926%29%3B%28._%3B%3E%3B%29%3B%29%3B%29%3Bout%3B"
+2019-01-18 16:34:50,149 INFO osmnx Polygon has invalid geometry: [260872629, 260833155]
+2019-01-18 16:34:50,150 INFO osmnx Polygon has invalid geometry: [260833155, 260833158]
+2019-01-18 16:34:50,457 INFO osmnx Could not handle OSM 'relation': 11895
+2019-01-18 16:35:06,257 INFO osmnx Converting node and edge attribute data types
+2019-01-18 16:35:13,031 INFO osmnx Loaded graph with 73,172 nodes and 214,476 edges in 22.43 seconds from "Data/Budapest/Budapest_walk.graphml"
+2019-01-18 16:36:56,534 INFO osmnx Retrieved response from cache file "cache/4cedef7f126e3e1cf2559a032781b95b.json" for URL "http://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A180%5D%3B%28%28node%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2847.349690%2C18.925106%2C47.613147%2C19.334926%29%3B%28._%3B%3E%3B%29%3B%29%3B%28way%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2847.349690%2C18.925106%2C47.613147%2C19.334926%29%3B%28._%3B%3E%3B%29%3B%29%3B%28relation%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2847.349690%2C18.925106%2C47.613147%2C19.334926%29%3B%28._%3B%3E%3B%29%3B%29%3B%29%3Bout%3B"
+2019-01-18 16:36:56,553 INFO osmnx Polygon has invalid geometry: [260872629, 260833155]
+2019-01-18 16:36:56,554 INFO osmnx Polygon has invalid geometry: [260833155, 260833158]
+2019-01-18 16:36:56,844 INFO osmnx Could not handle OSM 'relation': 11895
+2019-01-18 16:37:11,174 INFO osmnx Converting node and edge attribute data types
+2019-01-18 16:37:17,094 INFO osmnx Loaded graph with 73,172 nodes and 214,476 edges in 20.12 seconds from "Data/Budapest/Budapest_walk.graphml"
+2019-01-18 16:37:17,606 INFO osmnx Begin plotting the graph...
+2019-01-18 16:37:28,638 INFO osmnx Created GeoDataFrame "Budapest_UTM_edges" from graph in 10.97 seconds
+2019-01-18 16:37:45,153 INFO osmnx Drew the graph edges in 7.08 seconds
+2019-01-18 16:38:00,063 INFO osmnx Begin plotting the graph...
+2019-01-18 16:38:09,842 INFO osmnx Created GeoDataFrame "Budapest_UTM_edges" from graph in 9.67 seconds
+2019-01-18 16:38:26,814 INFO osmnx Drew the graph edges in 7.37 seconds
+2019-01-18 16:40:41,637 INFO osmnx Retrieved response from cache file "cache/4cedef7f126e3e1cf2559a032781b95b.json" for URL "http://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A180%5D%3B%28%28node%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2847.349690%2C18.925106%2C47.613147%2C19.334926%29%3B%28._%3B%3E%3B%29%3B%29%3B%28way%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2847.349690%2C18.925106%2C47.613147%2C19.334926%29%3B%28._%3B%3E%3B%29%3B%29%3B%28relation%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2847.349690%2C18.925106%2C47.613147%2C19.334926%29%3B%28._%3B%3E%3B%29%3B%29%3B%29%3Bout%3B"
+2019-01-18 16:40:41,663 INFO osmnx Polygon has invalid geometry: [260872629, 260833155]
+2019-01-18 16:40:41,663 INFO osmnx Polygon has invalid geometry: [260833155, 260833158]
+2019-01-18 16:40:41,934 INFO osmnx Could not handle OSM 'relation': 11895
+2019-01-18 16:40:57,482 INFO osmnx Converting node and edge attribute data types
+2019-01-18 16:41:03,833 INFO osmnx Loaded graph with 73,172 nodes and 214,476 edges in 21.72 seconds from "Data/Budapest/Budapest_walk.graphml"
+2019-01-18 16:41:14,049 INFO osmnx Created a GeoDataFrame from graph in 7.72 seconds
+2019-01-18 16:41:22,780 INFO osmnx Extracted projected node geometries from GeoDataFrame in 1.95 seconds
+2019-01-18 16:44:08,251 INFO osmnx Rebuilt projected graph in 165.47 seconds
+2019-01-18 16:44:09,000 INFO osmnx Begin plotting the graph...
+2019-01-18 16:44:20,141 INFO osmnx Created GeoDataFrame "Budapest_UTM_UTM_edges" from graph in 11.07 seconds
+2019-01-18 16:44:37,290 INFO osmnx Drew the graph edges in 7.14 seconds
+2019-01-18 16:46:17,103 INFO osmnx Retrieved response from cache file "cache/4cedef7f126e3e1cf2559a032781b95b.json" for URL "http://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A180%5D%3B%28%28node%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2847.349690%2C18.925106%2C47.613147%2C19.334926%29%3B%28._%3B%3E%3B%29%3B%29%3B%28way%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2847.349690%2C18.925106%2C47.613147%2C19.334926%29%3B%28._%3B%3E%3B%29%3B%29%3B%28relation%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2847.349690%2C18.925106%2C47.613147%2C19.334926%29%3B%28._%3B%3E%3B%29%3B%29%3B%29%3Bout%3B"
+2019-01-18 16:46:17,120 INFO osmnx Polygon has invalid geometry: [260872629, 260833155]
+2019-01-18 16:46:17,120 INFO osmnx Polygon has invalid geometry: [260833155, 260833158]
+2019-01-18 16:46:17,404 INFO osmnx Could not handle OSM 'relation': 11895
+2019-01-18 16:46:32,336 INFO osmnx Converting node and edge attribute data types
+2019-01-18 16:46:38,787 INFO osmnx Loaded graph with 73,172 nodes and 214,476 edges in 21.07 seconds from "Data/Budapest/Budapest_walk.graphml"
+2019-01-18 16:46:49,142 INFO osmnx Created a GeoDataFrame from graph in 7.83 seconds
+2019-01-18 16:46:57,977 INFO osmnx Extracted projected node geometries from GeoDataFrame in 1.88 seconds
+2019-01-18 16:49:43,887 INFO osmnx Rebuilt projected graph in 165.91 seconds
+2019-01-18 16:49:44,613 INFO osmnx Begin plotting the graph...
+2019-01-18 16:49:55,507 INFO osmnx Created GeoDataFrame "Budapest_UTM_UTM_edges" from graph in 10.82 seconds
+2019-01-18 16:50:12,777 INFO osmnx Drew the graph edges in 7.18 seconds
+2019-01-18 16:57:24,792 INFO osmnx Begin plotting the graph...
+2019-01-18 16:57:36,534 INFO osmnx Created GeoDataFrame "Budapest_UTM_UTM_edges" from graph in 11.65 seconds
+2019-01-18 16:57:53,970 INFO osmnx Drew the graph edges in 7.19 seconds
+2019-01-18 16:58:18,890 INFO osmnx Begin plotting the graph...
+2019-01-18 16:58:28,549 INFO osmnx Created GeoDataFrame "Budapest_UTM_UTM_edges" from graph in 9.58 seconds
+2019-01-18 16:58:49,432 INFO osmnx Drew the graph edges in 9.15 seconds
+2019-01-18 17:02:28,847 INFO osmnx Begin plotting the graph...
+2019-01-18 17:02:38,825 INFO osmnx Created GeoDataFrame "Budapest_UTM_UTM_edges" from graph in 9.88 seconds
+2019-01-18 17:02:55,200 INFO osmnx Drew the graph edges in 6.83 seconds
+2019-01-18 17:03:30,428 INFO osmnx Begin plotting the graph...
+2019-01-18 17:03:39,968 INFO osmnx Created GeoDataFrame "Budapest_UTM_UTM_edges" from graph in 9.44 seconds
+2019-01-18 17:03:56,436 INFO osmnx Drew the graph edges in 6.96 seconds
+2019-01-18 17:04:43,568 INFO osmnx Begin plotting the graph...
+2019-01-18 17:04:53,821 INFO osmnx Created GeoDataFrame "Budapest_UTM_UTM_edges" from graph in 10.17 seconds
+2019-01-18 17:05:09,307 INFO osmnx Drew the graph edges in 6.27 seconds
+2019-01-18 17:12:27,846 INFO osmnx Pausing 0.00 seconds before making API POST request
+2019-01-18 17:12:27,848 INFO osmnx Posting to http://overpass-api.de/api/interpreter with timeout=180, "{'data': '[out:json][timeout:180];((node["amenity"~"bar|pub|nightclub"](19.048237,-99.364924,19.592757,-98.940303);(._;>;););(way["amenity"~"bar|pub|nightclub"](19.048237,-99.364924,19.592757,-98.940303);(._;>;););(relation["amenity"~"bar|pub|nightclub"](19.048237,-99.364924,19.592757,-98.940303);(._;>;);););out;'}"
+2019-01-18 17:12:30,432 INFO osmnx Downloaded 101.1KB from overpass-api.de in 2.58 seconds
+2019-01-18 17:12:30,443 INFO osmnx Saved response to cache file "cache/bdd71e6850e1690209ea9c97bd3b8541.json"
+2019-01-18 17:12:58,634 INFO osmnx Converting node and edge attribute data types
+2019-01-18 17:13:06,826 INFO osmnx Loaded graph with 108,033 nodes and 319,238 edges in 36.21 seconds from "Data/Mexico/Mexico_walk.graphml"
+2019-01-18 17:13:24,009 INFO osmnx Created a GeoDataFrame from graph in 12.69 seconds
+2019-01-18 17:13:37,715 INFO osmnx Extracted projected node geometries from GeoDataFrame in 2.79 seconds
+2019-01-18 17:16:52,831 INFO osmnx Rebuilt projected graph in 195.11 seconds
+2019-01-18 17:16:54,815 INFO osmnx Begin plotting the graph...
+2019-01-18 17:17:17,597 INFO osmnx Created GeoDataFrame "Mexico_UTM_UTM_edges" from graph in 22.69 seconds
+2019-01-18 17:17:45,725 INFO osmnx Drew the graph edges in 10.54 seconds
+2019-01-18 17:17:59,080 INFO osmnx Pausing 0.00 seconds before making API POST request
+2019-01-18 17:17:59,081 INFO osmnx Posting to http://overpass-api.de/api/interpreter with timeout=180, "{'data': '[out:json][timeout:180];((node["amenity"~"bar|pub|nightclub"](40.699682,-74.019442,40.877796,-73.910187);(._;>;););(way["amenity"~"bar|pub|nightclub"](40.699682,-74.019442,40.877796,-73.910187);(._;>;););(relation["amenity"~"bar|pub|nightclub"](40.699682,-74.019442,40.877796,-73.910187);(._;>;);););out;'}"
+2019-01-18 17:18:00,423 INFO osmnx Downloaded 333.7KB from overpass-api.de in 1.34 seconds
+2019-01-18 17:18:00,441 INFO osmnx Saved response to cache file "cache/837a4e0ba1e6f5fb18d6cedf216006b0.json"
+2019-01-18 17:18:05,350 INFO osmnx Converting node and edge attribute data types
+2019-01-18 17:18:07,079 INFO osmnx Loaded graph with 13,326 nodes and 43,276 edges in 6.05 seconds from "Data/Manhattan/Manhattan_walk.graphml"
+2019-01-18 17:18:10,131 INFO osmnx Created a GeoDataFrame from graph in 1.47 seconds
+2019-01-18 17:18:12,181 INFO osmnx Extracted projected node geometries from GeoDataFrame in 0.44 seconds
+2019-01-18 17:18:41,657 INFO osmnx Rebuilt projected graph in 29.47 seconds
+2019-01-18 17:18:42,900 INFO osmnx Begin plotting the graph...
+2019-01-18 17:18:45,779 INFO osmnx Created GeoDataFrame "Manhattan_UTM_UTM_edges" from graph in 2.87 seconds
+2019-01-18 17:18:50,038 INFO osmnx Drew the graph edges in 1.87 seconds
+2019-01-18 17:18:52,560 INFO osmnx Pausing 0.00 seconds before making API POST request
+2019-01-18 17:18:52,561 INFO osmnx Posting to http://overpass-api.de/api/interpreter with timeout=180, "{'data': '[out:json][timeout:180];((node["amenity"~"bar|pub|nightclub"](41.317035,2.052498,41.468252,2.228356);(._;>;););(way["amenity"~"bar|pub|nightclub"](41.317035,2.052498,41.468252,2.228356);(._;>;););(relation["amenity"~"bar|pub|nightclub"](41.317035,2.052498,41.468252,2.228356);(._;>;);););out;'}"
+2019-01-18 17:18:54,908 INFO osmnx Downloaded 375.4KB from overpass-api.de in 2.35 seconds
+2019-01-18 17:18:54,934 INFO osmnx Saved response to cache file "cache/e00d0b2d533a7d95d183f2e1de4e2cfb.json"
+2019-01-18 17:19:01,170 INFO osmnx Converting node and edge attribute data types
+2019-01-18 17:19:03,316 INFO osmnx Loaded graph with 20,203 nodes and 61,150 edges in 7.57 seconds from "Data/Barcelona/Barcelona_walk.graphml"
+2019-01-18 17:19:06,249 INFO osmnx Created a GeoDataFrame from graph in 2.21 seconds
+2019-01-18 17:19:09,156 INFO osmnx Extracted projected node geometries from GeoDataFrame in 0.57 seconds
+2019-01-18 17:20:14,051 INFO osmnx Rebuilt projected graph in 64.89 seconds
+2019-01-18 17:20:14,440 INFO osmnx Begin plotting the graph...
+2019-01-18 17:20:18,222 INFO osmnx Created GeoDataFrame "Barcelona_UTM_UTM_edges" from graph in 3.76 seconds
+2019-01-18 17:20:23,881 INFO osmnx Drew the graph edges in 2.56 seconds
+2019-01-18 17:20:28,103 INFO osmnx Pausing 0.00 seconds before making API POST request
+2019-01-18 17:20:28,103 INFO osmnx Posting to http://overpass-api.de/api/interpreter with timeout=180, "{'data': '[out:json][timeout:180];((node["amenity"~"bar|pub|nightclub"](4.460400,-74.223689,4.837015,-73.996423);(._;>;););(way["amenity"~"bar|pub|nightclub"](4.460400,-74.223689,4.837015,-73.996423);(._;>;););(relation["amenity"~"bar|pub|nightclub"](4.460400,-74.223689,4.837015,-73.996423);(._;>;);););out;'}"
+2019-01-18 17:20:30,994 INFO osmnx Downloaded 226.8KB from overpass-api.de in 2.89 seconds
+2019-01-18 17:20:31,012 INFO osmnx Saved response to cache file "cache/8a05cacf9e5992a1ba6683eb0a5fcb3e.json"
+2019-01-18 17:20:51,008 INFO osmnx Converting node and edge attribute data types
+2019-01-18 17:20:59,460 INFO osmnx Loaded graph with 81,814 nodes and 243,420 edges in 28.16 seconds from "Data/Bogota/Bogota_walk.graphml"
+2019-01-18 17:21:14,020 INFO osmnx Created a GeoDataFrame from graph in 11.26 seconds
+2019-01-18 17:21:25,915 INFO osmnx Extracted projected node geometries from GeoDataFrame in 2.84 seconds
+2019-01-18 17:24:00,628 INFO osmnx Rebuilt projected graph in 154.71 seconds
+2019-01-18 17:24:01,744 INFO osmnx Begin plotting the graph...
+2019-01-18 17:24:19,411 INFO osmnx Created GeoDataFrame "Bogota_UTM_UTM_edges" from graph in 17.59 seconds
+2019-01-18 17:24:41,749 INFO osmnx Drew the graph edges in 7.96 seconds
+2019-01-18 17:24:49,630 INFO osmnx Retrieved response from cache file "cache/4cedef7f126e3e1cf2559a032781b95b.json" for URL "http://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A180%5D%3B%28%28node%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2847.349690%2C18.925106%2C47.613147%2C19.334926%29%3B%28._%3B%3E%3B%29%3B%29%3B%28way%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2847.349690%2C18.925106%2C47.613147%2C19.334926%29%3B%28._%3B%3E%3B%29%3B%29%3B%28relation%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2847.349690%2C18.925106%2C47.613147%2C19.334926%29%3B%28._%3B%3E%3B%29%3B%29%3B%29%3Bout%3B"
+2019-01-18 17:24:49,646 INFO osmnx Polygon has invalid geometry: [260872629, 260833155]
+2019-01-18 17:24:49,646 INFO osmnx Polygon has invalid geometry: [260833155, 260833158]
+2019-01-18 17:24:49,916 INFO osmnx Could not handle OSM 'relation': 11895
+2019-01-18 17:25:08,902 INFO osmnx Converting node and edge attribute data types
+2019-01-18 17:25:17,158 INFO osmnx Loaded graph with 73,172 nodes and 214,476 edges in 26.66 seconds from "Data/Budapest/Budapest_walk.graphml"
+2019-01-18 17:25:26,860 INFO osmnx Created a GeoDataFrame from graph in 7.74 seconds
+2019-01-18 17:25:37,886 INFO osmnx Extracted projected node geometries from GeoDataFrame in 2.04 seconds
+2019-01-18 17:26:15,853 INFO osmnx Retrieved response from cache file "cache/bdd71e6850e1690209ea9c97bd3b8541.json" for URL "http://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A180%5D%3B%28%28node%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2819.048237%2C-99.364924%2C19.592757%2C-98.940303%29%3B%28._%3B%3E%3B%29%3B%29%3B%28way%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2819.048237%2C-99.364924%2C19.592757%2C-98.940303%29%3B%28._%3B%3E%3B%29%3B%29%3B%28relation%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2819.048237%2C-99.364924%2C19.592757%2C-98.940303%29%3B%28._%3B%3E%3B%29%3B%29%3B%29%3Bout%3B"
+2019-01-18 17:26:45,629 INFO osmnx Converting node and edge attribute data types
+2019-01-18 17:26:55,077 INFO osmnx Loaded graph with 108,033 nodes and 319,238 edges in 39.05 seconds from "Data/Mexico/Mexico_walk.graphml"
+2019-01-18 17:27:12,731 INFO osmnx Created a GeoDataFrame from graph in 12.12 seconds
+2019-01-18 17:27:24,729 INFO osmnx Extracted projected node geometries from GeoDataFrame in 3.24 seconds
+2019-01-18 17:27:59,461 INFO osmnx Retrieved response from cache file "cache/bdd71e6850e1690209ea9c97bd3b8541.json" for URL "http://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A180%5D%3B%28%28node%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2819.048237%2C-99.364924%2C19.592757%2C-98.940303%29%3B%28._%3B%3E%3B%29%3B%29%3B%28way%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2819.048237%2C-99.364924%2C19.592757%2C-98.940303%29%3B%28._%3B%3E%3B%29%3B%29%3B%28relation%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2819.048237%2C-99.364924%2C19.592757%2C-98.940303%29%3B%28._%3B%3E%3B%29%3B%29%3B%29%3Bout%3B"
+2019-01-18 17:28:29,015 INFO osmnx Converting node and edge attribute data types
+2019-01-18 17:28:37,460 INFO osmnx Loaded graph with 108,033 nodes and 319,238 edges in 37.85 seconds from "Data/Mexico/Mexico_walk.graphml"
+2019-01-18 17:28:57,465 INFO osmnx Created a GeoDataFrame from graph in 14.80 seconds
+2019-01-18 17:29:11,842 INFO osmnx Extracted projected node geometries from GeoDataFrame in 3.28 seconds
+2019-01-18 17:32:19,072 INFO osmnx Rebuilt projected graph in 187.23 seconds
+2019-01-18 17:32:20,927 INFO osmnx Begin plotting the graph...
+2019-01-18 17:32:40,946 INFO osmnx Created GeoDataFrame "Mexico_UTM_UTM_edges" from graph in 19.91 seconds
+2019-01-18 17:33:07,143 INFO osmnx Drew the graph edges in 10.46 seconds
+2019-01-18 17:33:23,761 INFO osmnx Retrieved response from cache file "cache/837a4e0ba1e6f5fb18d6cedf216006b0.json" for URL "http://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A180%5D%3B%28%28node%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2840.699682%2C-74.019442%2C40.877796%2C-73.910187%29%3B%28._%3B%3E%3B%29%3B%29%3B%28way%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2840.699682%2C-74.019442%2C40.877796%2C-73.910187%29%3B%28._%3B%3E%3B%29%3B%29%3B%28relation%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2840.699682%2C-74.019442%2C40.877796%2C-73.910187%29%3B%28._%3B%3E%3B%29%3B%29%3B%29%3Bout%3B"
+2019-01-18 17:33:28,450 INFO osmnx Converting node and edge attribute data types
+2019-01-18 17:33:29,811 INFO osmnx Loaded graph with 13,326 nodes and 43,276 edges in 5.65 seconds from "Data/Manhattan/Manhattan_walk.graphml"
+2019-01-18 17:33:31,795 INFO osmnx Created a GeoDataFrame from graph in 1.58 seconds
+2019-01-18 17:33:33,904 INFO osmnx Extracted projected node geometries from GeoDataFrame in 0.60 seconds
+2019-01-18 17:34:00,853 INFO osmnx Rebuilt projected graph in 26.95 seconds
+2019-01-18 17:34:01,928 INFO osmnx Begin plotting the graph...
+2019-01-18 17:34:04,398 INFO osmnx Created GeoDataFrame "Manhattan_UTM_UTM_edges" from graph in 2.46 seconds
+2019-01-18 17:34:07,707 INFO osmnx Drew the graph edges in 1.27 seconds
+2019-01-18 17:34:13,893 INFO osmnx Retrieved response from cache file "cache/e00d0b2d533a7d95d183f2e1de4e2cfb.json" for URL "http://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A180%5D%3B%28%28node%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2841.317035%2C2.052498%2C41.468252%2C2.228356%29%3B%28._%3B%3E%3B%29%3B%29%3B%28way%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2841.317035%2C2.052498%2C41.468252%2C2.228356%29%3B%28._%3B%3E%3B%29%3B%29%3B%28relation%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2841.317035%2C2.052498%2C41.468252%2C2.228356%29%3B%28._%3B%3E%3B%29%3B%29%3B%29%3Bout%3B"
+2019-01-18 17:34:19,361 INFO osmnx Converting node and edge attribute data types
+2019-01-18 17:34:21,681 INFO osmnx Loaded graph with 20,203 nodes and 61,150 edges in 7.40 seconds from "Data/Barcelona/Barcelona_walk.graphml"
+2019-01-18 17:34:24,517 INFO osmnx Created a GeoDataFrame from graph in 2.28 seconds
+2019-01-18 17:34:28,938 INFO osmnx Extracted projected node geometries from GeoDataFrame in 0.54 seconds
+2019-01-18 17:35:32,716 INFO osmnx Rebuilt projected graph in 63.78 seconds
+2019-01-18 17:35:33,141 INFO osmnx Begin plotting the graph...
+2019-01-18 17:35:36,804 INFO osmnx Created GeoDataFrame "Barcelona_UTM_UTM_edges" from graph in 3.64 seconds
+2019-01-18 17:35:43,328 INFO osmnx Drew the graph edges in 2.30 seconds
+2019-01-18 17:35:55,823 INFO osmnx Retrieved response from cache file "cache/8a05cacf9e5992a1ba6683eb0a5fcb3e.json" for URL "http://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A180%5D%3B%28%28node%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%284.460400%2C-74.223689%2C4.837015%2C-73.996423%29%3B%28._%3B%3E%3B%29%3B%29%3B%28way%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%284.460400%2C-74.223689%2C4.837015%2C-73.996423%29%3B%28._%3B%3E%3B%29%3B%29%3B%28relation%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%284.460400%2C-74.223689%2C4.837015%2C-73.996423%29%3B%28._%3B%3E%3B%29%3B%29%3B%29%3Bout%3B"
+2019-01-18 17:36:21,704 INFO osmnx Converting node and edge attribute data types
+2019-01-18 17:36:28,151 INFO osmnx Loaded graph with 81,814 nodes and 243,420 edges in 32.01 seconds from "Data/Bogota/Bogota_walk.graphml"
+2019-01-18 17:36:40,845 INFO osmnx Created a GeoDataFrame from graph in 10.40 seconds
+2019-01-18 17:36:51,586 INFO osmnx Extracted projected node geometries from GeoDataFrame in 2.62 seconds
+2019-01-18 17:39:45,267 INFO osmnx Rebuilt projected graph in 173.68 seconds
+2019-01-18 17:39:46,487 INFO osmnx Begin plotting the graph...
+2019-01-18 17:40:06,527 INFO osmnx Created GeoDataFrame "Bogota_UTM_UTM_edges" from graph in 19.95 seconds
+2019-01-18 17:40:31,149 INFO osmnx Drew the graph edges in 11.72 seconds
+2019-01-18 17:40:49,108 INFO osmnx Retrieved response from cache file "cache/4cedef7f126e3e1cf2559a032781b95b.json" for URL "http://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A180%5D%3B%28%28node%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2847.349690%2C18.925106%2C47.613147%2C19.334926%29%3B%28._%3B%3E%3B%29%3B%29%3B%28way%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2847.349690%2C18.925106%2C47.613147%2C19.334926%29%3B%28._%3B%3E%3B%29%3B%29%3B%28relation%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2847.349690%2C18.925106%2C47.613147%2C19.334926%29%3B%28._%3B%3E%3B%29%3B%29%3B%29%3Bout%3B"
+2019-01-18 17:40:49,126 INFO osmnx Polygon has invalid geometry: [260872629, 260833155]
+2019-01-18 17:40:49,126 INFO osmnx Polygon has invalid geometry: [260833155, 260833158]
+2019-01-18 17:40:49,417 INFO osmnx Could not handle OSM 'relation': 11895
+2019-01-18 17:41:48,790 INFO osmnx Retrieved response from cache file "cache/bdd71e6850e1690209ea9c97bd3b8541.json" for URL "http://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A180%5D%3B%28%28node%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2819.048237%2C-99.364924%2C19.592757%2C-98.940303%29%3B%28._%3B%3E%3B%29%3B%29%3B%28way%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2819.048237%2C-99.364924%2C19.592757%2C-98.940303%29%3B%28._%3B%3E%3B%29%3B%29%3B%28relation%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2819.048237%2C-99.364924%2C19.592757%2C-98.940303%29%3B%28._%3B%3E%3B%29%3B%29%3B%29%3Bout%3B"
+2019-01-18 17:42:23,950 INFO osmnx Converting node and edge attribute data types
+2019-01-18 17:42:31,603 INFO osmnx Loaded graph with 108,033 nodes and 319,238 edges in 42.67 seconds from "Data/Mexico/Mexico_walk.graphml"
+2019-01-18 17:42:50,214 INFO osmnx Created a GeoDataFrame from graph in 15.64 seconds
+2019-01-18 17:43:02,102 INFO osmnx Extracted projected node geometries from GeoDataFrame in 3.11 seconds
+2019-01-18 17:46:25,185 INFO osmnx Rebuilt projected graph in 203.08 seconds
+2019-01-18 17:46:27,463 INFO osmnx Begin plotting the graph...
+2019-01-18 17:46:47,819 INFO osmnx Created GeoDataFrame "Mexico_UTM_UTM_edges" from graph in 20.25 seconds
+2019-01-18 17:47:14,618 INFO osmnx Drew the graph edges in 11.26 seconds
+2019-01-18 17:47:31,021 INFO osmnx Retrieved response from cache file "cache/837a4e0ba1e6f5fb18d6cedf216006b0.json" for URL "http://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A180%5D%3B%28%28node%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2840.699682%2C-74.019442%2C40.877796%2C-73.910187%29%3B%28._%3B%3E%3B%29%3B%29%3B%28way%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2840.699682%2C-74.019442%2C40.877796%2C-73.910187%29%3B%28._%3B%3E%3B%29%3B%29%3B%28relation%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2840.699682%2C-74.019442%2C40.877796%2C-73.910187%29%3B%28._%3B%3E%3B%29%3B%29%3B%29%3Bout%3B"
+2019-01-18 17:47:34,339 INFO osmnx Converting node and edge attribute data types
+2019-01-18 17:47:35,791 INFO osmnx Loaded graph with 13,326 nodes and 43,276 edges in 4.41 seconds from "Data/Manhattan/Manhattan_walk.graphml"
+2019-01-18 17:47:37,752 INFO osmnx Created a GeoDataFrame from graph in 1.56 seconds
+2019-01-18 17:47:39,656 INFO osmnx Extracted projected node geometries from GeoDataFrame in 0.39 seconds
+2019-01-18 17:48:12,172 INFO osmnx Rebuilt projected graph in 32.52 seconds
+2019-01-18 17:48:14,069 INFO osmnx Begin plotting the graph...
+2019-01-18 17:48:16,867 INFO osmnx Created GeoDataFrame "Manhattan_UTM_UTM_edges" from graph in 2.78 seconds
+2019-01-18 17:48:23,809 INFO osmnx Drew the graph edges in 4.55 seconds
+2019-01-18 17:48:30,330 INFO osmnx Retrieved response from cache file "cache/e00d0b2d533a7d95d183f2e1de4e2cfb.json" for URL "http://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A180%5D%3B%28%28node%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2841.317035%2C2.052498%2C41.468252%2C2.228356%29%3B%28._%3B%3E%3B%29%3B%29%3B%28way%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2841.317035%2C2.052498%2C41.468252%2C2.228356%29%3B%28._%3B%3E%3B%29%3B%29%3B%28relation%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2841.317035%2C2.052498%2C41.468252%2C2.228356%29%3B%28._%3B%3E%3B%29%3B%29%3B%29%3Bout%3B"
+2019-01-18 17:48:36,161 INFO osmnx Converting node and edge attribute data types
+2019-01-18 17:48:39,828 INFO osmnx Loaded graph with 20,203 nodes and 61,150 edges in 8.93 seconds from "Data/Barcelona/Barcelona_walk.graphml"
+2019-01-18 17:48:46,087 INFO osmnx Created a GeoDataFrame from graph in 2.34 seconds
+2019-01-18 17:48:49,636 INFO osmnx Extracted projected node geometries from GeoDataFrame in 0.75 seconds
+2019-01-18 17:49:56,911 INFO osmnx Rebuilt projected graph in 67.27 seconds
+2019-01-18 17:49:57,509 INFO osmnx Begin plotting the graph...
+2019-01-18 17:50:00,891 INFO osmnx Created GeoDataFrame "Barcelona_UTM_UTM_edges" from graph in 3.36 seconds
+2019-01-18 17:50:07,102 INFO osmnx Drew the graph edges in 2.54 seconds
+2019-01-18 17:50:18,385 INFO osmnx Retrieved response from cache file "cache/8a05cacf9e5992a1ba6683eb0a5fcb3e.json" for URL "http://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A180%5D%3B%28%28node%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%284.460400%2C-74.223689%2C4.837015%2C-73.996423%29%3B%28._%3B%3E%3B%29%3B%29%3B%28way%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%284.460400%2C-74.223689%2C4.837015%2C-73.996423%29%3B%28._%3B%3E%3B%29%3B%29%3B%28relation%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%284.460400%2C-74.223689%2C4.837015%2C-73.996423%29%3B%28._%3B%3E%3B%29%3B%29%3B%29%3Bout%3B"
+2019-01-18 17:50:45,584 INFO osmnx Converting node and edge attribute data types
+2019-01-18 17:50:52,469 INFO osmnx Loaded graph with 81,814 nodes and 243,420 edges in 33.82 seconds from "Data/Bogota/Bogota_walk.graphml"
+2019-01-18 17:51:05,508 INFO osmnx Created a GeoDataFrame from graph in 10.51 seconds
+2019-01-18 17:51:22,126 INFO osmnx Extracted projected node geometries from GeoDataFrame in 4.85 seconds
+2019-01-18 17:54:47,841 INFO osmnx Rebuilt projected graph in 205.71 seconds
+2019-01-18 17:54:50,580 INFO osmnx Begin plotting the graph...
+2019-01-18 17:55:08,891 INFO osmnx Created GeoDataFrame "Bogota_UTM_UTM_edges" from graph in 18.22 seconds
+2019-01-18 17:55:36,291 INFO osmnx Drew the graph edges in 9.81 seconds
+2019-01-18 17:55:51,226 INFO osmnx Retrieved response from cache file "cache/4cedef7f126e3e1cf2559a032781b95b.json" for URL "http://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A180%5D%3B%28%28node%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2847.349690%2C18.925106%2C47.613147%2C19.334926%29%3B%28._%3B%3E%3B%29%3B%29%3B%28way%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2847.349690%2C18.925106%2C47.613147%2C19.334926%29%3B%28._%3B%3E%3B%29%3B%29%3B%28relation%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2847.349690%2C18.925106%2C47.613147%2C19.334926%29%3B%28._%3B%3E%3B%29%3B%29%3B%29%3Bout%3B"
+2019-01-18 17:55:51,265 INFO osmnx Polygon has invalid geometry: [260872629, 260833155]
+2019-01-18 17:55:51,265 INFO osmnx Polygon has invalid geometry: [260833155, 260833158]
+2019-01-18 17:55:51,881 INFO osmnx Could not handle OSM 'relation': 11895
+2019-01-18 17:56:16,196 INFO osmnx Converting node and edge attribute data types
+2019-01-18 17:56:22,970 INFO osmnx Loaded graph with 73,172 nodes and 214,476 edges in 30.62 seconds from "Data/Budapest/Budapest_walk.graphml"
+2019-01-18 17:56:38,562 INFO osmnx Created a GeoDataFrame from graph in 9.54 seconds
+2019-01-18 17:56:48,503 INFO osmnx Extracted projected node geometries from GeoDataFrame in 2.12 seconds
+2019-01-18 18:00:51,143 INFO osmnx Rebuilt projected graph in 242.64 seconds
+2019-01-18 18:00:54,512 INFO osmnx Begin plotting the graph...
+2019-01-18 18:01:06,832 INFO osmnx Created GeoDataFrame "Budapest_UTM_UTM_edges" from graph in 12.24 seconds
+2019-01-18 18:01:27,887 INFO osmnx Drew the graph edges in 9.76 seconds
+2019-01-18 18:01:50,517 INFO osmnx Pausing 0.00 seconds before making API POST request
+2019-01-18 18:01:50,518 INFO osmnx Posting to http://overpass-api.de/api/interpreter with timeout=180, "{'data': '[out:json][timeout:180];((node["amenity"~"bar|pub|nightclub"](55.612879,12.453000,55.732716,12.734246);(._;>;););(way["amenity"~"bar|pub|nightclub"](55.612879,12.453000,55.732716,12.734246);(._;>;););(relation["amenity"~"bar|pub|nightclub"](55.612879,12.453000,55.732716,12.734246);(._;>;);););out;'}"
+2019-01-18 18:01:53,825 INFO osmnx Downloaded 147.2KB from overpass-api.de in 3.31 seconds
+2019-01-18 18:01:53,833 INFO osmnx Saved response to cache file "cache/e2074da328a4b34be5582d975ee5058b.json"
+2019-01-18 18:02:02,978 INFO osmnx Converting node and edge attribute data types
+2019-01-18 18:02:05,863 INFO osmnx Loaded graph with 30,746 nodes and 84,808 edges in 11.78 seconds from "Data/Copenhagen/Copenhagen_walk.graphml"
+2019-01-18 18:02:10,272 INFO osmnx Created a GeoDataFrame from graph in 3.54 seconds
+2019-01-18 18:02:14,835 INFO osmnx Extracted projected node geometries from GeoDataFrame in 1.01 seconds
+2019-01-18 18:03:26,779 INFO osmnx Rebuilt projected graph in 71.94 seconds
+2019-01-18 18:03:28,168 INFO osmnx Begin plotting the graph...
+2019-01-18 18:03:33,455 INFO osmnx Created GeoDataFrame "Copenhagen_UTM_UTM_edges" from graph in 5.26 seconds
+2019-01-18 18:03:42,476 INFO osmnx Drew the graph edges in 3.35 seconds
+2019-01-18 18:04:01,905 INFO osmnx Pausing 0.00 seconds before making API POST request
+2019-01-18 18:04:01,907 INFO osmnx Posting to http://overpass-api.de/api/interpreter with timeout=180, "{'data': '[out:json][timeout:180];((node["amenity"~"bar|pub|nightclub"](33.703622,-118.668187,34.337306,-118.155295);(._;>;););(way["amenity"~"bar|pub|nightclub"](33.703622,-118.668187,34.337306,-118.155295);(._;>;););(relation["amenity"~"bar|pub|nightclub"](33.703622,-118.668187,34.337306,-118.155295);(._;>;);););out;'}"
+2019-01-18 18:04:09,162 INFO osmnx Downloaded 165.2KB from overpass-api.de in 7.26 seconds
+2019-01-18 18:04:09,180 INFO osmnx Saved response to cache file "cache/54663d721f90873e5bf6784b8f2ed1fa.json"
+2019-01-18 18:04:36,300 INFO osmnx Converting node and edge attribute data types
+2019-01-18 18:04:50,076 INFO osmnx Loaded graph with 89,543 nodes and 260,284 edges in 40.61 seconds from "Data/LA/LA_walk.graphml"
+2019-01-18 18:05:06,586 INFO osmnx Created a GeoDataFrame from graph in 13.98 seconds
+2019-01-18 18:05:20,323 INFO osmnx Extracted projected node geometries from GeoDataFrame in 3.51 seconds
+2019-01-18 18:09:57,555 INFO osmnx Rebuilt projected graph in 277.23 seconds
+2019-01-18 18:09:59,151 INFO osmnx Begin plotting the graph...
+2019-01-18 18:10:13,165 INFO osmnx Created GeoDataFrame "LA_UTM_UTM_edges" from graph in 13.92 seconds
+2019-01-18 18:10:37,505 INFO osmnx Drew the graph edges in 11.32 seconds
+2019-01-18 18:10:57,902 INFO osmnx Pausing 0.00 seconds before making API POST request
+2019-01-18 18:10:57,903 INFO osmnx Posting to http://overpass-api.de/api/interpreter with timeout=180, "{'data': '[out:json][timeout:180];((node["amenity"~"bar|pub|nightclub"](51.286760,-0.510375,51.691874,0.334015);(._;>;););(way["amenity"~"bar|pub|nightclub"](51.286760,-0.510375,51.691874,0.334015);(._;>;););(relation["amenity"~"bar|pub|nightclub"](51.286760,-0.510375,51.691874,0.334015);(._;>;);););out;'}"
+2019-01-18 18:11:09,026 INFO osmnx Downloaded 3,169.7KB from overpass-api.de in 11.12 seconds
+2019-01-18 18:11:09,180 INFO osmnx Saved response to cache file "cache/bb461c49ad2936303afdc6a6229d9d3d.json"
+2019-01-18 18:11:09,285 INFO osmnx Polygon has invalid geometry: [1159347275, 1159347336]
+2019-01-18 18:11:09,865 INFO osmnx Could not handle OSM 'relation': 4200471
+2019-01-18 18:12:18,461 INFO osmnx Converting node and edge attribute data types
+2019-01-18 18:12:47,275 INFO osmnx Loaded graph with 270,659 nodes and 712,418 edges in 95.94 seconds from "Data/London/London_walk.graphml"
+2019-01-18 18:13:29,964 INFO osmnx Created a GeoDataFrame from graph in 35.74 seconds
+2019-01-18 18:14:12,761 INFO osmnx Extracted projected node geometries from GeoDataFrame in 8.68 seconds
+2019-01-18 18:39:47,894 INFO osmnx Rebuilt projected graph in 1,535.13 seconds
+2019-01-18 18:39:58,847 INFO osmnx Begin plotting the graph...
+2019-01-18 18:40:36,182 INFO osmnx Created GeoDataFrame "London_UTM_UTM_edges" from graph in 36.91 seconds
+2019-01-18 18:42:07,426 INFO osmnx Drew the graph edges in 40.38 seconds
+2019-01-18 18:57:12,909 INFO osmnx Configured osmnx
+2019-01-18 18:57:14,757 INFO osmnx Retrieved response from cache file "cache/837a4e0ba1e6f5fb18d6cedf216006b0.json" for URL "http://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A180%5D%3B%28%28node%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2840.699682%2C-74.019442%2C40.877796%2C-73.910187%29%3B%28._%3B%3E%3B%29%3B%29%3B%28way%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2840.699682%2C-74.019442%2C40.877796%2C-73.910187%29%3B%28._%3B%3E%3B%29%3B%29%3B%28relation%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2840.699682%2C-74.019442%2C40.877796%2C-73.910187%29%3B%28._%3B%3E%3B%29%3B%29%3B%29%3Bout%3B"
+2019-01-18 18:57:17,368 INFO osmnx Converting node and edge attribute data types
+2019-01-18 18:57:19,118 INFO osmnx Loaded graph with 13,326 nodes and 43,276 edges in 4.07 seconds from "Data/Manhattan/Manhattan_walk.graphml"
+2019-01-18 18:57:21,387 INFO osmnx Created a GeoDataFrame from graph in 1.84 seconds
+2019-01-18 18:57:23,646 INFO osmnx Extracted projected node geometries from GeoDataFrame in 0.61 seconds
+2019-01-18 18:57:52,282 INFO osmnx Rebuilt projected graph in 28.64 seconds
+2019-01-18 18:58:01,225 INFO osmnx Begin plotting the graph...
+2019-01-18 18:58:03,396 INFO osmnx Created GeoDataFrame "Manhattan_UTM_UTM_edges" from graph in 2.16 seconds
+2019-01-18 18:58:06,799 INFO osmnx Drew the graph edges in 1.22 seconds
+2019-01-18 18:58:08,455 INFO osmnx Showed the plot in 1.09 seconds
+2019-01-18 19:04:49,770 INFO osmnx Retrieved response from cache file "cache/837a4e0ba1e6f5fb18d6cedf216006b0.json" for URL "http://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A180%5D%3B%28%28node%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2840.699682%2C-74.019442%2C40.877796%2C-73.910187%29%3B%28._%3B%3E%3B%29%3B%29%3B%28way%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2840.699682%2C-74.019442%2C40.877796%2C-73.910187%29%3B%28._%3B%3E%3B%29%3B%29%3B%28relation%5B%22amenity%22~%22bar%7Cpub%7Cnightclub%22%5D%2840.699682%2C-74.019442%2C40.877796%2C-73.910187%29%3B%28._%3B%3E%3B%29%3B%29%3B%29%3Bout%3B"
+2019-01-18 19:05:01,928 INFO osmnx Converting node and edge attribute data types
+2019-01-18 19:05:03,264 INFO osmnx Loaded graph with 13,326 nodes and 43,276 edges in 13.14 seconds from "Data/Manhattan/Manhattan_walk.graphml"
+2019-01-18 19:05:05,400 INFO osmnx Created a GeoDataFrame from graph in 1.77 seconds
+2019-01-18 19:05:06,898 INFO osmnx Extracted projected node geometries from GeoDataFrame in 0.32 seconds
+2019-01-18 19:05:34,157 INFO osmnx Rebuilt projected graph in 27.26 seconds
+2019-01-18 19:05:34,615 INFO osmnx Begin plotting the graph...
+2019-01-18 19:05:37,090 INFO osmnx Created GeoDataFrame "Manhattan_UTM_UTM_edges" from graph in 2.46 seconds
+2019-01-18 19:05:40,468 INFO osmnx Drew the graph edges in 1.30 seconds
